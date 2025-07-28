@@ -2,8 +2,11 @@
 
 这里是一系列跟LLM相关的文献，以下是目录的介绍
 
-**目录结构**
+### **目录结构**
 
+```markdown
+Papers-Reading
+│
 ├─AutoML
 │      AFE_master.pdf
 │      AIDE.pdf
@@ -44,9 +47,19 @@
         Large-Language-Model-Agent-A-Survey-on.pdf
         llm4ml-workflows-survey.pdf
         survey of EDA.pdf
+```
+
 
 ---
 
-**细节介绍**
+### **细节介绍**
 
+`AutoML` ： 自动化机器学习
 
+`benchmark` ：目前只记录与自动化机器学习有关的benchmark
+
+`LLM4CO`：LLM解决组合优化问题
+
+`SOH forecasting`：电池健康状态预测（第一篇要水的文章）
+
+`Surveys`：涵盖各种内容的综述
