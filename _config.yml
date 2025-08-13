@@ -1,0 +1,29 @@
+# GitHub Pages 配置
+site_title: "Academic Reader"
+description: "Reading papers online"
+
+# 主题设置
+theme: jekyll-theme-cayman
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# 包含所有PDF文件夹
+include:
+  - "AutoML/"
+  - "AI4Science/"
+  - "LLM4CO/"
+  - "Surveys/"
+  - "Security/"
+  - "benchmark/"
+  - "embodied/"
+
+# 排除不需要的文件
+exclude:
+  - "README.md"
+  - "READMESEC.md"
+  - "GITHUB_PAGES_GUIDE.md"
+  - ".git/"
+  - ".gitignore"
