@@ -10,20 +10,21 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# 包含所有PDF文件夹
+# 关闭Jekyll处理，直接提供静态文件
 include:
-  - "AutoML/"
-  - "AI4Science/"
-  - "LLM4CO/"
-  - "Surveys/"
-  - "Security/"
-  - "benchmark/"
-  - "embodied/"
+ - "AutoML/"
+ - "AI4Science/"
+ - "LLM4CO/"
+ - "Surveys/"
+ - "Security/"
+ - "benchmark/"
+ - "embodied/"
 
-# 排除不需要的文件
+# 排除不需要的文件，但包含所有PDF
 exclude:
-  - "README.md"
-  - "READMESEC.md"
-  - "GITHUB_PAGES_GUIDE.md"
-  - ".git/"
-  - ".gitignore"
+ - "README.md"
+ - "READMESEC.md"
+ - "GITHUB_PAGES_GUIDE.md"
+ - ".git/"
+ - ".gitignore"
+ - "*.md"
