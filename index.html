@@ -399,45 +399,71 @@
         }
 
         function loadPapers(category) {
-            const papers = {
+                                    const papers = {
                 'AutoML': [
-                    'AFE Master.pdf', 'AIDE Framework.pdf', 'Agent Laboratory.pdf', 'AutoKaggle Platform.pdf',
-                    'AutoML Agent.pdf', 'Data Interpreter.pdf', 'DOLPHIN System.pdf', 'DS Agent.pdf',
-                    'I MCTS Algorithm.pdf', 'LightAutoDS Tab.pdf', 'ML Agent.pdf', 'ML Master.pdf',
-                    'ML Zero.pdf', 'OpenHands Platform.pdf', 'Paper2Code.pdf', 'R&D Agent.pdf',
-                    'TabPFN Model.pdf', 'CAAFE Framework.pdf', 'Huawei Agent K1.pdf', 'LLM Feature Engineering.pdf',
-                    'OCTree Algorithm.pdf', 'OpenFE Framework.pdf', 'Real TabPFN.pdf', 'SELA Framework.pdf'
+                        'AFE Master.pdf',
+                        'AIDE Framework.pdf',
+                        'Agent Laboratory.pdf',
+                        'AutoKaggle Platform.pdf',
+                        'AutoML Agent.pdf',
+                        'CAAFE Framework.pdf',
+                        'DOLPHIN System.pdf',
+                        'DS Agent.pdf',
+                        'Data Interpreter.pdf',
+                        'Huawei Agent K1.pdf',
+                        'I MCTS Algorithm.pdf',
+                        'LAMBDA.pdf',
+                        'LLM Feature Engineering.pdf',
+                        'LightAutoDS Tab.pdf',
+                        'ML Agent.pdf',
+                        'ML Master.pdf',
+                        'ML Zero.pdf',
+                        'OCTree Algorithm.pdf',
+                        'OpenFE Framework.pdf',
+                        'OpenHands Platform.pdf',
+                        'Paper2Code.pdf',
+                        'R&D Agent.pdf',
+                        'Real TabPFN.pdf',
+                        'SELA Framework.pdf',
+                        'TabPFN Model.pdf',
                 ],
                 'AI4Science': [
-                    'Mathematical Discoveries From Program Search.pdf',
-                    'Data Driven Energy Management For Electric.pdf',
-                    'PINN SOH Framework.pdf'
+                        'Data Driven Energy Management For Electric.pdf',
+                        'Mathematical Discoveries From Program Search.pdf',
+                        'PINN SOH Framework.pdf',
                 ],
                 'LLM4CO': [
-                    'Mathematical Discoveries From Program Search.pdf',
-                    'CO Bench Benchmarking Language Model Agents.pdf',
-                    'ReEvo Large Language Models As Hyper Heuristics.pdf'
+                        'CO Bench Benchmarking Language Model Agents.pdf',
+                        'Mathematical Discoveries From Program Search.pdf',
+                        'ReEvo Large Language Models As Hyper Heuristics.pdf',
                 ],
                 'Security': [
-                    'Fundamentals Of AI.pdf', 'Applications Of AI In InfoSec.pdf',
-                    'Introduction To Red Teaming AI.pdf', 'Prompt Injection Attacks.pdf'
+                        'Applications Of AI In InfoSec.pdf',
+                        'Fundamentals Of AI.pdf',
+                        'Introduction To Red Teaming AI.pdf',
+                        'Prompt Injection Attacks.pdf',
                 ],
                 'Surveys': [
-                    'Large Language Model Based Survey.pdf',
-                    'Attention Mechanisms In Deep Learning Survey.pdf',
-                    'Advances And Challenges In Foundation Agents.pdf',
-                    'Data Analysis In The Era Of Generative AI.pdf',
-                    'Large Language Models For Data Science Survey.pdf',
-                    'Large Language Model Agent Survey.pdf',
-                    'Measuring Data Science Automation.pdf',
-                    'LLM4ML Workflows Survey.pdf',
-                    'Survey Of EDA.pdf',
-                    'Embodied AI Survey.pdf'
+                        'Advances And Challenges In Foundation Agents.pdf',
+                        'Attention Mechanisms In Deep Learning Survey.pdf',
+                        'Data Analysis In The Era Of Generative AI.pdf',
+                        'Embodied AI Survey.pdf',
+                        'LLM4ML Workflows Survey.pdf',
+                        'Large Language Model Agent Survey.pdf',
+                        'Large Language Model Based Data Science Agent A Survey.pdf',
+                        'Large Language Model Based Survey.pdf',
+                        'Large Language Models For Data Science Survey.pdf',
+                        'Measuring Data Science Automation.pdf',
+                        'Survey Of EDA.pdf',
                 ],
                 'benchmark': [
-                    'DataSciBench.pdf', 'IDA Bench.pdf', 'MLE Bench.pdf'
+                        'DataSciBench.pdf',
+                        'IDA Bench.pdf',
+                        'MLE Bench.pdf',
                 ],
-                'embodied': []
+                'embodied': [
+                    ,
+                ]
             };
             
             const container = document.getElementById(`category-${category}`);
